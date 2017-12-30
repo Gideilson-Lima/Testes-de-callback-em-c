@@ -1,13 +1,9 @@
 int MENOR_PARA_O_MAIOR(int a, int b){
-	if(a>b)
-		return 1;
-	return 0;
+	return (a>b); //--simplificação da função
 }
 
 int MAIOR_PARA_O_MENOR(int a, int b){
-	if(a<b)
-		return 1;
-	return 0;
+	return (a<b); //--simplificação da função
 }
 void ordenar(int *a, int size, int (*ptr_fun)(int, int)){
 	int aux;

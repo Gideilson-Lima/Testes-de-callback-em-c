@@ -8,19 +8,21 @@ void mostar_vetor(int *a, int size){
 }
 
 int main(int argc, char *argv[]){
-	int array[3];
+	int array[5];
 	
-	array[0]= 3;
-	array[1]= 2;
-	array[2]= 1;
+	array[0]= 4;
+	array[1]= 1;
+	array[2]= 2;
+	array[3]= 3;
+	array[4]= 5;
 	
-	ordenar(array,3,MENOR_PARA_O_MAIOR);
-	mostar_vetor(array,3);
+	ordenar(array,5,MENOR_PARA_O_MAIOR);
+	mostar_vetor(array,5);
 	
 	printf("\n---------\n");
 	
-	ordenar(array,3,MAIOR_PARA_O_MENOR);
-	mostar_vetor(array,3);
+	ordenar(array,5,MAIOR_PARA_O_MENOR);
+	mostar_vetor(array,5);
 	
 	return 0;
 }
